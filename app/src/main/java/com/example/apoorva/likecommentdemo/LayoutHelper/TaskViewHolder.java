@@ -4,9 +4,9 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.example.apoorva.likecommentdemo.DataObjects.Task;
 import com.example.apoorva.likecommentdemo.R;
 
 /**
@@ -19,6 +19,7 @@ public class TaskViewHolder extends RecyclerView.ViewHolder {
     private ImageButton like_button;
     private Button comment_button;
     private TextView task_creater,task_desc,like_count;
+    private LinearLayout commentLayout;
 
     public TaskViewHolder(View itemView) {
         super(itemView);
@@ -28,6 +29,7 @@ public class TaskViewHolder extends RecyclerView.ViewHolder {
         like_count = (TextView) view.findViewById(R.id.like_count);
         like_button = (ImageButton) view.findViewById(R.id.like_button);
         comment_button = (Button) view.findViewById(R.id.comment_button);
+        commentLayout = (LinearLayout) view.findViewById(R.id.comment_layout);
     }
 
     public void setTask_creater(String task_creater) {
@@ -48,5 +50,9 @@ public class TaskViewHolder extends RecyclerView.ViewHolder {
 
     public Button getComment_button() {
         return comment_button;
+    }
+
+    public LinearLayout getCommentLayout(){
+        return commentLayout;
     }
 }
