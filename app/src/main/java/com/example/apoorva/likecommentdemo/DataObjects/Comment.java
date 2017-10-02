@@ -7,15 +7,15 @@ package com.example.apoorva.likecommentdemo.DataObjects;
 public class Comment {
 
     String userid;
-    String commenttext;
+    String message;
     String username;
 
     public Comment() {
     }
 
-    public Comment(String userid, String commenttext, String username) {
+    public Comment(String userid, String message, String username) {
         this.userid = userid;
-        this.commenttext = commenttext;
+        this.message = message;
         this.username = username;
     }
 
@@ -27,12 +27,12 @@ public class Comment {
         this.userid = userid;
     }
 
-    public String getCommenttext() {
-        return commenttext;
+    public String getMessage() {
+        return message;
     }
 
-    public void setCommenttext(String commenttext) {
-        this.commenttext = commenttext;
+    public void setMessage(String message) {
+        this.message = message;
     }
 
     public String getUsername() {

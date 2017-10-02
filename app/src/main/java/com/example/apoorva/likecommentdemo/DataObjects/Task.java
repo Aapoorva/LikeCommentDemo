@@ -13,12 +13,12 @@ public class Task {
     private String taskdesc;
     private int likeCount;
     private HashMap<String,String> likes;
-    private HashMap<String,String> comments;
+    private HashMap<String,HashMap<String,String>> comments;
 
     public Task() {
     }
 
-    public Task(String tasksrcid, String taskcreater, String taskdesc, HashMap<String,String> likes, HashMap<String,String> comments) {
+    public Task(String tasksrcid, String taskcreater, String taskdesc, HashMap<String,String> likes, HashMap<String,HashMap<String,String>> comments) {
         this.tasksrcid = tasksrcid;
         this.taskcreater = taskcreater;
         this.taskdesc = taskdesc;
@@ -58,11 +58,11 @@ public class Task {
         this.likes = likes;
     }
 
-    public HashMap<String,String> getComments() {
+    public HashMap<String,HashMap<String,String>> getComments() {
         return comments;
     }
 
-    public void setComments(HashMap<String,String> comments) {
+    public void setComments(HashMap<String,HashMap<String,String>> comments) {
         this.comments = comments;
     }
 
