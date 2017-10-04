@@ -4,6 +4,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
 
+import com.example.apoorva.likecommentdemo.DataObjects.Comment;
 import com.example.apoorva.likecommentdemo.R;
 
 /**
@@ -21,6 +22,11 @@ public class CommentViewHolder extends RecyclerView.ViewHolder {
         view = itemView;
         commentCreater = (TextView) view.findViewById(R.id.comment_creater);
         commentMessage = (TextView) view.findViewById(R.id.comment_msg);
+    }
+
+    public void setData(Comment comment){
+        commentCreater.setText(comment.getUsername());
+        commentMessage.setText(comment.getMessage());
     }
 
     public void setCommentCreater(String commentCreater){

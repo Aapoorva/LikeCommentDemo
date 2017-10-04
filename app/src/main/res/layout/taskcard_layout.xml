@@ -68,10 +68,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:visibility="gone"
             android:id="@+id/comment_layout"
+            android:visibility="gone"
             android:background="@drawable/comment_layout_box"
-            android:padding="5dp">
+            android:padding="6dp">
 
             <android.support.v7.widget.RecyclerView
                 android:layout_width="match_parent"
@@ -87,7 +87,7 @@
                 android:layout_marginTop="5dp">
 
                 <EditText
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
                     android:layout_height="45dp"
                     android:layout_weight="1"
                     android:paddingLeft="8dp"

@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "505648062821",
+    "firebase_url": "https://testdatabase-5bd57.firebaseio.com",
+    "project_id": "testdatabase-5bd57",
+    "storage_bucket": "testdatabase-5bd57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505648062821:android:2462d06e4c1a8a0c",
+        "android_client_info": {
+          "package_name": "com.example.apoorva.listfragexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "505648062821-ktj9q9c3ls950ie7dvsvpjmpcgteqihv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.apoorva.listfragexample",
+            "certificate_hash": "1a034a665829eab4a846d5d51d2ec3c14c7f9e80"
+          }
+        },
+        {
+          "client_id": "505648062821-9h2gmkf52t2vj1svjrgmcic6fg8m6r8a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDABytTCed8fd_-NcznqIndBfSwXggW81M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "505648062821-9h2gmkf52t2vj1svjrgmcic6fg8m6r8a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505648062821:android:ba24927cc6c6921a",
+        "android_client_info": {
+          "package_name": "com.example.apoorva.likecommentdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "505648062821-jk0csh1q68nrnq202jk12uru44sio9qc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.apoorva.likecommentdemo",
+            "certificate_hash": "1a034a665829eab4a846d5d51d2ec3c14c7f9e80"
+          }
+        },
+        {
+          "client_id": "505648062821-9h2gmkf52t2vj1svjrgmcic6fg8m6r8a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDABytTCed8fd_-NcznqIndBfSwXggW81M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "505648062821-9h2gmkf52t2vj1svjrgmcic6fg8m6r8a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
